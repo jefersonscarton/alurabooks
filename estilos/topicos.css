@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulo{
+    color: var(--branco);
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos__lista-item{
+    margin: 1.5em  0.5em;
+}
+
+.topicos__lista-item a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--branco);
+    background: var(--laranja);
+    padding: 1em; 
+    border-radius: 5px;   
+}
